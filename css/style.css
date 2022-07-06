@@ -154,7 +154,7 @@ button:focus, input:focus {
 
 
 
-@media (max-width:769px){
+@media (max-width:852px){
     .quantity-center{
         flex-direction: column;
         width:550px  !important;
@@ -201,6 +201,9 @@ button:focus, input:focus {
 }
 
     @media (max-width: 426px) {
+        .spacing {
+            width:395px;
+        }
 
         .header-text, .money{
             font-size:20px;
@@ -250,6 +253,9 @@ button:focus, input:focus {
     }
 
     @media (max-width: 376px) {
+        .spacing {
+            width:350px;
+        }
 
         .quantity-center{
             flex-direction: column;
@@ -275,6 +281,15 @@ button:focus, input:focus {
             flex-direction: column;
             width:146px  !important;
         }
+
+        .spacing {
+            width:290px;
+        }
+
+        .image{
+            width:25% !important;
+            height:80% !important;
+        } 
         .nav-item{
             width:80px;
         }
@@ -292,20 +307,10 @@ button:focus, input:focus {
             width:0;
             height:0;
             position:absolute;
-            top: 45px;
+            top: 45.3px;
             bottom: -20px;
             left:50%;
             transform:translateY(-50%);
-        }
-
-        .quantity-center{
-            flex-direction: column;
-            width:150px  !important;
-        }
-
-
-        .image{
-            width:30% !important;
         }
 
          .button-b {
@@ -317,7 +322,7 @@ button:focus, input:focus {
         }
 
          .big-text {
-        font-size:14px;
+        font-size:13px !important;
         }
 
     }
