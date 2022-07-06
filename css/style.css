@@ -270,11 +270,16 @@ button:focus, input:focus {
     }
 
     @media (max-width: 321px) {
+
+        .quantity-center{
+            flex-direction: column;
+            width:146px  !important;
+        }
         .nav-item{
             width:80px;
         }
 
-        .small-text {
+        .small-text, .money, .cart {
             font-size:12px;
         }
 
