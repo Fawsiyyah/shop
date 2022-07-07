@@ -4,10 +4,18 @@ header, footer {
     font-family: 'Inter', sans-serif !important;
 }
 
-/*.nav-link.active {
+#nav-shop:hover, #nav-shop:focus {
     color: #17A200 !important;
-    border-bottom: 5px solid #17A200 ;
-}*/
+    border-bottom: 5px solid #17A200 !important;
+}
+
+#not-btn:hover, #not-btn:focus {
+    border: 1px solid transparent !important;
+}
+
+.dropdown-item:hover {
+    background: transparent !important;
+}
 
 footer {
     background: url(../img/background_3.jpg) center/cover no-repeat;
@@ -18,22 +26,18 @@ footer {
         width: 100% !important;
     }
 
-    .input-group .form-control, .input-group #button-addon2  {
-        border-radius: 7px !important;
+    .input-group .form-control, .input-group button{
+        border-radius: 7px!important;
     }
 }
 
 @media (max-width: 769px) {
     .nav-link {
-        color: black !important;
+        color: black;
     }
 
     .nav-link.active {
         border-bottom: none !important;
-    }
-
-    #sign-up {
-        background-color: transparent !important;
     }
 
     .width-md {

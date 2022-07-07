@@ -106,7 +106,7 @@ border-radius:7px;
 }
 
 .header-text {
-    font-size: 1.875rem;
+    font-size: 2.1875rem;
 }
 
 .big-text {
@@ -209,6 +209,12 @@ button:focus, input:focus {
     .img-1{
         margin-top:20px;
     }
+
+    .quantity{
+        width:100px;
+        margin-bottom:0px !important;
+       margin-right:10px;
+    }
 }
 
     @media (max-width: 426px) {
@@ -306,7 +312,7 @@ button:focus, input:focus {
 
         .image{
             width:45% !important;
-            height:80% !important;
+            
         } 
         .nav-item{
             width:80px;
@@ -325,7 +331,7 @@ button:focus, input:focus {
             width:0 !important;
             height:0 !important;
             position:absolute !important;
-            top: 42px !important;
+            top: 41px !important;
             bottom: -20px !important;
             left:50% !important;
             transform:translateY(-50%) !important;
