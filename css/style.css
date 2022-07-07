@@ -301,16 +301,24 @@ color:#17A100
             width:146px  !important;
         }
 
+        .center {
+            padding-right:10px !important;
+        }
+
         .spacing {
             width:290px;
         }
 
         .image{
-            width:35% !important;
+            width:50% !important;
             
         } 
         .nav-item{
             width:80px;
+        }
+
+        .small-text-2 {
+            font-size:8px !important;
         }
 
         .small-text, .money, .cart {
