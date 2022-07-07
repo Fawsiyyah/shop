@@ -23,7 +23,7 @@ body {
 color:black;
 }
 
-.button {
+.button-b {
 background-color:#17A100;
 color: white;
 
@@ -120,7 +120,7 @@ color:#17A100
 .quantity{
     width:100px;
     margin-top:auto;
-    margin-bottom:40px;
+    margin-bottom:55px;
    margin-right:10px;
 }
 
@@ -155,14 +155,9 @@ color:#17A100
 
 
 
-button:focus, input:focus {
-    outline:0;
-}
 
 
-
-
-@media (max-width:852px){
+@media (max-width:769px){
     .quantity-center{
         flex-direction: column;
         width:550px  !important;
@@ -187,13 +182,13 @@ button:focus, input:focus {
 
     .button-b-c{
         display:flex;
-        flex-direction:row-reverse !important; 
-        margin-top:0px !important;
-
+        flex-direction:row-reverse !important;
     }
+    
     .button-b {
         margin-left:10px;
         width:18.75rem;
+        padding:0px !important;
          margin-top:0px !important;
     }
 
@@ -311,7 +306,7 @@ button:focus, input:focus {
         }
 
         .image{
-            width:45% !important;
+            width:35% !important;
             
         } 
         .nav-item{
