@@ -193,10 +193,7 @@ margin-bottom: 0px !important;
     
 }
 
-.carts {
-margin-bottom:0px !important;
-padding-bottom: 0px !important;
-}
+
  /*.plus-btn, .minus-btn, .number {
     width:35px !important;
     text-align: center !important;
@@ -242,6 +239,7 @@ padding-bottom: 0px !important;
        margin-right:10px;
     }
 }
+
 
     @media (max-width: 426px) {
         .spacing {
@@ -309,6 +307,19 @@ padding-bottom: 0px !important;
     
     }
 
+    @media (max-width:413px) {
+        .bus-image-section {
+            min-width:10vw;
+        min-height: 11vh;
+        background-image: url(../img/pickup-van.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+    }
+
+
     @media (max-width: 376px) {
         .spacing {
             width:350px;
@@ -316,7 +327,7 @@ padding-bottom: 0px !important;
 
          .bus-image-section {
             min-width:10vw;
-        min-height: 16vh;
+        min-height: 15vh;
         background-image: url(../img/pickup-van.png);
         background-repeat: no-repeat;
         background-size:cover;
@@ -343,6 +354,18 @@ padding-bottom: 0px !important;
 
         .img-1{
             margin-top:20px;
+        }
+    }
+
+    @media (max-width:361px){
+        .bus-image-section {
+            min-width:10vw;
+        min-height: 11vh;
+        background-image: url(../img/pickup-van.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-bottom: 0px !important;
+            padding-bottom: 0px !important;
         }
     }
 
