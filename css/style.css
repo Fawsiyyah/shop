@@ -165,7 +165,13 @@ color:#17A100
     background-color: white;
     
 }
+input:active, input:focus {
+    outline:none;
+}
 
+button:active, button:focus {
+    outline:none;
+}
 
 
 
@@ -430,7 +436,11 @@ margin-bottom: 0px !important;
          .big-text {
         font-size:13px !important;
         }
-
+        
+      
+        .quantity {
+            margin-top: 8px !important;
+    }
     }
 
    
