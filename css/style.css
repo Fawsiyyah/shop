@@ -446,6 +446,20 @@ margin-bottom: 0px !important;
         .quantity {
             margin-top: 8px !important;
     }
+
+    .plus-btn, .minus-btn {
+        border: 1px solid black;
+        min-height:10px;
+        width:15px;
+        display:flex !important;
+        justify-content:center !important;
+        align-items:center !important;
+        border-radius:2.5px;
+        cursor:pointer;
+        background-color: white;
+        font-size:10px;
+        margin-right: 5px;
+    }
     }
 
    
