@@ -19,6 +19,7 @@ header, footer {
 
 footer {
     background: url(../img/background_3.jpg) center/cover no-repeat;
+    width: 100% !important;
 }
 
 #not-btn {

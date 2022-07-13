@@ -211,6 +211,7 @@ margin-bottom: 0px !important;
  }*/
     .spacing {
         flex-direction: column;
+        width:100vw;
     }
 
     .image{
@@ -224,14 +225,14 @@ margin-bottom: 0px !important;
 
     .button-b {
         margin-left:10px;
-        width:18.75rem;
+        width:19.75rem;
         padding:0px !important;
          margin-top:0px !important;
     }
 
     .button-c {
         margin-left:10px;
-        width:18.75rem;
+        width:19.75rem;
         margin-top:0px !important;
     }
 
@@ -254,7 +255,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 426px) {
         .spacing {
-            width:97vw;
+            width:102vw;
         }
 
         .bus-image-section {
@@ -286,7 +287,7 @@ margin-bottom: 0px !important;
         }
 
         .image{
-            min-width:35vw !important;
+            min-width:50vw !important;
         }
         .button-b {
             margin-left:5px;
@@ -333,7 +334,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 376px) {
         .spacing {
-            width:100vw;
+            width:110vw;
         }
 
          .bus-image-section {
@@ -352,7 +353,7 @@ margin-bottom: 0px !important;
         }
 
         .image{
-            min-width:45vw !important;
+            min-width:55vw !important;
             
         }
         .button-b {
@@ -396,11 +397,11 @@ margin-bottom: 0px !important;
         }
 
         .spacing {
-            width:107vw;
+            width:115vw;
         }
 
         .image{
-            min-width: 53vw !important;
+            min-width: 60vw !important;
           
         } 
         .nav-item{
