@@ -31,10 +31,19 @@ background-size:cover;
 color:black;
 }
 
+.button-b-c {
+    display: flex;
+    justify-content:left;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 25px !important;
+}
+
+
 .button-b {
 background-color:#17A100;
 color: white;
-
+margin-bottom: 60px !important ;
 }
 
 .cart-button {
@@ -184,12 +193,13 @@ button:active, button:focus {
 @media (max-width:769px){
     .quantity-center{
         flex-direction: column;
-        width:550px  !important;
+        width:500px  !important;
     }
 
     .quantity {
     display:flex !important;
-    justify-content:left !important
+    justify-content:left !important;
+   
  }
 
  .bus-image-section {
@@ -211,29 +221,28 @@ margin-bottom: 0px !important;
  }*/
     .spacing {
         flex-direction: column;
-        width:100vw;
+        min-width:100vw;
     }
 
     .image{
-        width:40%;
+       min-width:25vw;
     }
 
     .button-b-c{
         display:flex;
         flex-direction:row-reverse !important;
+        width: 500px;
     }
 
     .button-b {
         margin-left:10px;
-        width:19.75rem;
-        padding:0px !important;
-         margin-top:0px !important;
+        width:230px !important;
+        margin-bottom: 1px !important;
     }
 
-    .button-c {
-        margin-left:10px;
-        width:19.75rem;
-        margin-top:0px !important;
+    .button-c {  
+        width:230px !important;
+        margin-bottom: 1px !important;
     }
 
     .header-text {
@@ -248,22 +257,27 @@ margin-bottom: 0px !important;
     .quantity{
         width:100px;
         margin-bottom:0px !important;
-       margin-right:10px;
+      
     }
 }
 
 
     @media (max-width: 426px) {
         .spacing {
-            width:102vw;
+            min-width:118vw;
+        }
+
+        .quantity-center{
+            flex-direction: column;
+            width:250px  !important;
         }
 
         .bus-image-section {
-            min-width:10vw;
-        min-height: 18vh;
+            min-width:10vw !important;
+        min-height: 18vh !important;
         background-image: url(../img/pickup-van.png);
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:cover !important;
         margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
@@ -280,22 +294,26 @@ margin-bottom: 0px !important;
         .small-text {
             font-size:16px;
         }
-        .quantity-center{
-            flex-direction: column;
-            width:250px  !important;
-           
-        }
-
+        
+       
         .image{
             min-width:50vw !important;
         }
+
+        .button-b-c{
+            margin-right:10px !important;
+            width:276px;
+        }
+
+       
         .button-b {
-            margin-left:5px;
-            width:12rem;
+            margin-left:10px !important;
+            width: 120px !important;
         }
     
         .button-c {
-            width:12rem;
+        margin-left:5px !important;
+          width: 120px !important;
         }
 
         
@@ -334,7 +352,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 376px) {
         .spacing {
-            width:110vw;
+            min-width:138vw;
         }
 
          .bus-image-section {
@@ -348,8 +366,7 @@ margin-bottom: 0px !important;
         }
 
         .quantity-center{
-            flex-direction: column;
-            width:200px  !important;
+           min-width:130px  !important;
         }
 
         .image{
@@ -358,10 +375,10 @@ margin-bottom: 0px !important;
         }
         .button-b {
             margin-left:5px;
-            width:10rem;
+            width:102px;
         }
         .button-c {
-            width: 10rem;
+            width:102px;
         }
 
         .img-1{
@@ -393,27 +410,27 @@ margin-bottom: 0px !important;
         }
         .quantity-center{
             flex-direction: column;
-            width:50vw  !important;
+            width:190px  !important;
         }
 
         .spacing {
-            width:115vw;
+            min-width:175vw;
         }
 
         .image{
-            min-width: 60vw !important;
+            min-width: 65vw !important;
           
         } 
         .nav-item{
-            width:80px;
+            width:90px;
         }
 
         .small-text {
-            font-size:12px;
+            font-size:14px;
         }
 
         .money {
-            font-size: 14px;
+            font-size: 16px;
         }
 
         .head-link .active::after{
@@ -435,16 +452,20 @@ margin-bottom: 0px !important;
             margin-top:20px;
         }
 
+        
+
          .button-b {
             margin-left:5px;
-            width:9rem;
+            min-width: 60px !important;
+           
         }
         .button-c {
-            width: 9rem;
+          min-width: 60px !important;
+          margin-left:5px;
         }
 
          .big-text {
-        font-size:16px !important;
+        font-size:18px !important;
         }
         
       
