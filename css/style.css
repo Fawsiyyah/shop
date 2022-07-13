@@ -254,7 +254,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 426px) {
         .spacing {
-            width:395px;
+            width:97vw;
         }
 
         .bus-image-section {
@@ -286,15 +286,15 @@ margin-bottom: 0px !important;
         }
 
         .image{
-            min-width:30vw !important;
+            min-width:35vw !important;
         }
         .button-b {
             margin-left:5px;
-            width:11rem;
+            width:12rem;
         }
     
         .button-c {
-            width:11rem;
+            width:12rem;
         }
 
         
@@ -333,7 +333,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 376px) {
         .spacing {
-            width:350px;
+            width:100vw;
         }
 
          .bus-image-section {
@@ -352,15 +352,15 @@ margin-bottom: 0px !important;
         }
 
         .image{
-            min-width:30vw !important;
+            min-width:45vw !important;
             
         }
         .button-b {
             margin-left:5px;
-            width:9.375rem;
+            width:10rem;
         }
         .button-c {
-            width: 9.375rem;
+            width: 10rem;
         }
 
         .img-1{
@@ -392,23 +392,27 @@ margin-bottom: 0px !important;
         }
         .quantity-center{
             flex-direction: column;
-            width:146px  !important;
+            width:50vw  !important;
         }
 
         .spacing {
-            width:290px;
+            width:107vw;
         }
 
         .image{
-            min-width:35vw !important;
-           min-height:20vh !important;
+            min-width: 53vw !important;
+          
         } 
         .nav-item{
             width:80px;
         }
 
-        .small-text, .money, .cart {
-            font-size:10px;
+        .small-text {
+            font-size:12px;
+        }
+
+        .money {
+            font-size: 14px;
         }
 
         .head-link .active::after{
@@ -420,7 +424,7 @@ margin-bottom: 0px !important;
             width:0 !important;
             height:0 !important;
             position:absolute !important;
-            top: 41px !important;
+            top: 45px !important;
             bottom: -20px !important;
             left:50% !important;
             transform:translateY(-50%) !important;
@@ -432,20 +436,20 @@ margin-bottom: 0px !important;
 
          .button-b {
             margin-left:5px;
-            width:7rem;
+            width:9rem;
         }
         .button-c {
-            width: 7rem;
+            width: 9rem;
         }
 
          .big-text {
-        font-size:13px !important;
+        font-size:16px !important;
         }
         
       
         .quantity {
             margin-top: 8px !important;
-            width:50%;
+            width:20vw !important;
     }
 
     .plus-btn, .minus-btn {
