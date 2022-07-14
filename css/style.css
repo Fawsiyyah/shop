@@ -79,6 +79,7 @@ box-shadow: 0px 2px 20px rgba(0,0,0,0.1);
 .nav-arrow:focus{
     background: #17A100 !important;
     color:white !important;
+   
 }
 
 ul li a{
@@ -142,7 +143,7 @@ color:#17A100
 .quantity{
     width:100px;
     margin-top:auto;
-    margin-bottom:60px;
+    margin-bottom:35px;
    margin-right:10px;
 }
 
@@ -193,7 +194,7 @@ button:active, button:focus {
 @media (max-width:769px){
     .quantity-center{
         flex-direction: column;
-        width:500px  !important;
+        width:300px  !important;
     }
 
     .quantity {
@@ -221,7 +222,7 @@ margin-bottom: 0px !important;
  }*/
     .spacing {
         flex-direction: column;
-        min-width:100vw;
+        min-width:90vw;
     }
 
     .image{
@@ -231,17 +232,17 @@ margin-bottom: 0px !important;
     .button-b-c{
         display:flex;
         flex-direction:row-reverse !important;
-        width: 500px;
+       
     }
 
     .button-b {
         margin-left:10px;
-        width:230px !important;
+        width:200px !important;
         margin-bottom: 1px !important;
     }
 
     .button-c {  
-        width:230px !important;
+        width:200px !important;
         margin-bottom: 1px !important;
     }
 
@@ -250,9 +251,7 @@ margin-bottom: 0px !important;
         margin-top:0px !important;
         padding: 0px !important;
     }
-    .img-1{
-        margin-top:20px;
-    }
+    
 
     .quantity{
         width:100px;
@@ -264,12 +263,13 @@ margin-bottom: 0px !important;
 
     @media (max-width: 426px) {
         .spacing {
-            min-width:118vw;
+            min-width:102vw;
         }
 
         .quantity-center{
             flex-direction: column;
-            width:250px  !important;
+            width:246px  !important;
+           
         }
 
         .bus-image-section {
@@ -283,37 +283,36 @@ margin-bottom: 0px !important;
         }
 
         .header-text, .money{
-            font-size:20px;
+            font-size:18px;
         }
 
 
         .big-text {
-        font-size:18px;
+        font-size:16px;
         }
 
         .small-text {
-            font-size:16px;
+            font-size:14px;
         }
         
        
         .image{
-            min-width:50vw !important;
-        }
-
-        .button-b-c{
-            margin-right:10px !important;
-            width:276px;
+            min-width:55vw !important;
+           
         }
 
        
+
+       
         .button-b {
-            margin-left:10px !important;
-            width: 120px !important;
+            margin-left:5px !important;
+            width:42% !important;
+            font-size: 10px;
         }
     
         .button-c {
-        margin-left:5px !important;
-          width: 120px !important;
+            font-size: 10px;
+          width: 42% !important;
         }
 
         
@@ -326,24 +325,22 @@ margin-bottom: 0px !important;
             width:0 !important;
             height:0 !important;
             position:absolute !important;
-            top: 50px !important;
+            top: 47px !important;
             bottom: -20px !important;
             left:50% !important;
             transform:translateY(-50%) !important;
         }
-        .img-1{
-            margin-top:20px;
-        }
+       
     
     }
 
     @media (max-width:413px) {
         .bus-image-section {
-            min-width:10vw;
-        min-height: 11vh;
+            min-width:10vw !important;
+        min-height: 11vh !important;
         background-image: url(../img/pickup-van.png);
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size:cover !important;
         margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
@@ -352,7 +349,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 376px) {
         .spacing {
-            min-width:138vw;
+            min-width:100vw;
         }
 
          .bus-image-section {
@@ -365,25 +362,46 @@ margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
 
+        .head-link .active::after{
+            content:"" !important;
+            border-right: 10px solid transparent !important;
+            border-top: 10px solid #17A100 !important;
+            border-bottom: 10px solid transparent !important;
+            border-left: 10px solid transparent !important;
+            width:0 !important;
+            height:0 !important;
+            position:absolute !important;
+            top: 45px !important;
+            bottom: -20px !important;
+            left:50% !important;
+            transform:translateY(-50%) !important;
+        }
+
+        .small-text,.money  {
+            font-size:12px;
+        }
+
         .quantity-center{
-           min-width:130px  !important;
+           min-width:100px  !important;
         }
 
         .image{
-            min-width:55vw !important;
+            min-width:60vw !important;
+           
             
         }
         .button-b {
             margin-left:5px;
-            width:102px;
+            width:31% !important;
         }
         .button-c {
-            width:102px;
+            width:31% !important;
+        }
+        .button-b, .button-c{
+            font-size: 9px;
         }
 
-        .img-1{
-            margin-top:20px;
-        }
+       
     }
 
     @media (max-width:361px){
@@ -408,29 +426,31 @@ margin-bottom: 0px !important;
         margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
+
         .quantity-center{
             flex-direction: column;
-            width:190px  !important;
+         
         }
 
         .spacing {
-            min-width:175vw;
+            width: 100vw !important;
         }
 
+       
         .image{
-            min-width: 65vw !important;
-          
+            min-width:50vw !important;
+           
         } 
         .nav-item{
             width:90px;
         }
 
-        .small-text {
-            font-size:14px;
+        .small-text,.money  {
+            font-size:12px;
         }
 
-        .money {
-            font-size: 16px;
+        .button-b, .button-c{
+            font-size: 8px;
         }
 
         .head-link .active::after{
@@ -448,31 +468,27 @@ margin-bottom: 0px !important;
             transform:translateY(-50%) !important;
         }
 
-        .img-1{
-            margin-top:20px;
-        }
-
-        
+             
 
          .button-b {
             margin-left:5px;
-            min-width: 60px !important;
+            width: 32% !important;
            
         }
         .button-c {
-          min-width: 60px !important;
-          margin-left:5px;
+          width: 32% !important;
+        
         }
 
          .big-text {
-        font-size:18px !important;
+        font-size:14px !important;
         }
         
       
         .quantity {
             margin-top: 8px !important;
             width:20vw !important;
-    }
+        }
 
     .plus-btn, .minus-btn {
         border: 1px solid black;
