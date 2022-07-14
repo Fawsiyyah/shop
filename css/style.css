@@ -124,6 +124,10 @@ border-radius:7px;
     font-size: 1.125rem;
 }
 
+.image {
+    padding-left: 40px!important;
+}
+
 .text{
     color:black;
 }
@@ -300,7 +304,7 @@ margin-bottom: 0px !important;
         
        
         .image{
-            min-width:25vw !important;
+            min-width:35vw !important;
             margin-left: 5px !important;
         }
 
@@ -389,13 +393,13 @@ margin-bottom: 0px !important;
         }
 
         .image{
-            min-width:60vw !important;
+            min-width:63vw !important;
            
             
         }
         .button-b {
             margin-left:5px;
-            width:39% !important;
+            width:35% !important;
         }
         .button-c {
             width:39% !important;
@@ -432,7 +436,7 @@ margin-bottom: 0px !important;
 
         .quantity-center{
             flex-direction: column;
-         width:240px !important;
+         width:258px !important;
         }
 
         .spacing {
@@ -443,8 +447,8 @@ margin-bottom: 0px !important;
        
        
         .image{
-            min-width:73vw !important;
-           padding-left: 40px;
+            min-width:78vw !important;
+           padding-left: 75px !important;
         } 
         .nav-item{
             width:90px;
@@ -477,7 +481,7 @@ margin-bottom: 0px !important;
 
          .button-b {
             margin-left:5px;
-            width: 31% !important;
+            width: 26% !important;
            
         }
         .button-c {
