@@ -223,6 +223,7 @@ margin-bottom: 0px !important;
     .spacing {
         flex-direction: column;
         min-width:90vw;
+        overflow-x: hidden!important;
     }
 
     .image{
@@ -263,12 +264,14 @@ margin-bottom: 0px !important;
 
     @media (max-width: 426px) {
         .spacing {
-            min-width:102vw;
+            overflow-x: hidden;
+            min-width:94vw;
+            margin-left: 5px;
         }
 
         .quantity-center{
             flex-direction: column;
-            width:246px  !important;
+            width:265px  !important;
            
         }
 
@@ -297,8 +300,8 @@ margin-bottom: 0px !important;
         
        
         .image{
-            min-width:55vw !important;
-           
+            min-width:25vw !important;
+            margin-left: 5px !important;
         }
 
        
@@ -306,13 +309,13 @@ margin-bottom: 0px !important;
        
         .button-b {
             margin-left:5px !important;
-            width:42% !important;
+            width:33% !important;
             font-size: 10px;
         }
     
         .button-c {
             font-size: 10px;
-          width: 42% !important;
+          width: 33% !important;
         }
 
         
@@ -349,7 +352,7 @@ margin-bottom: 0px !important;
 
     @media (max-width: 376px) {
         .spacing {
-            min-width:100vw;
+            min-width:98vw !important;
         }
 
          .bus-image-section {
@@ -382,7 +385,7 @@ margin-bottom: 0px !important;
         }
 
         .quantity-center{
-           min-width:100px  !important;
+           width:210px  !important;
         }
 
         .image{
@@ -392,10 +395,10 @@ margin-bottom: 0px !important;
         }
         .button-b {
             margin-left:5px;
-            width:31% !important;
+            width:39% !important;
         }
         .button-c {
-            width:31% !important;
+            width:39% !important;
         }
         .button-b, .button-c{
             font-size: 9px;
@@ -429,17 +432,19 @@ margin-bottom: 0px !important;
 
         .quantity-center{
             flex-direction: column;
-         
+         width:240px !important;
         }
 
         .spacing {
-            width: 100vw !important;
+           min-width: 98vw !important;
+           overflow-x: hidden!important;
         }
 
        
+       
         .image{
-            min-width:50vw !important;
-           
+            min-width:73vw !important;
+           padding-left: 40px;
         } 
         .nav-item{
             width:90px;
@@ -472,11 +477,11 @@ margin-bottom: 0px !important;
 
          .button-b {
             margin-left:5px;
-            width: 32% !important;
+            width: 31% !important;
            
         }
         .button-c {
-          width: 32% !important;
+          width: 31% !important;
         
         }
 
