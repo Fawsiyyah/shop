@@ -241,7 +241,7 @@ margin-bottom: 0px !important;
     }
 
     .button-b {
-        margin-left:10px;
+        margin-left:5px;
         width:200px !important;
         margin-bottom: 1px !important;
     }
@@ -262,6 +262,33 @@ margin-bottom: 0px !important;
         width:100px;
         margin-bottom:0px !important;
       
+    }
+}
+
+
+@media (max-width:585px){
+    .button-b {
+        margin-left:5px !important;
+        width:40% !important;
+        font-size: 12px;
+    }
+
+    .button-c {
+        font-size: 12px;
+      width: 40% !important;
+    }
+}
+
+@media (max-width:466px){
+    .button-b {
+        margin-left:5px !important;
+        width:35% !important;
+        font-size: 12px;
+    }
+
+    .button-c {
+        font-size: 12px;
+      width: 35% !important;
     }
 }
 
@@ -411,6 +438,7 @@ margin-bottom: 0px !important;
        
     }
 
+  
     @media (max-width:361px){
         .bus-image-section {
             min-width:10vw;
@@ -422,6 +450,34 @@ margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
     }
+
+    @media (max-width:350px){
+        .button-b {
+            margin-left:5px;
+            width:32% !important;
+        }
+        .button-c {
+            width:39% !important;
+        }
+        .button-b, .button-c{
+            font-size: 9px;
+        }
+    }
+
+
+    @media (max-width:340px){
+        .button-b {
+            margin-left:5px;
+            width:30% !important;
+        }
+        .button-c {
+            width:39% !important;
+        }
+        .button-b, .button-c{
+            font-size: 9px;
+        }
+    }
+
 
     @media (max-width: 321px) {
         .bus-image-section {
@@ -512,6 +568,19 @@ margin-bottom: 0px !important;
         font-size:16px;
         margin-right: 5px;
     }
+    }
+
+    @media (max-width:281px){
+        .button-b {
+            margin-left:5px;
+            width:25% !important;
+        }
+        .button-c {
+            width:30% !important;
+        }
+        .button-b, .button-c{
+            font-size: 8px;
+        }
     }
 
    
