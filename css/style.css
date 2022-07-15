@@ -237,7 +237,8 @@ margin-bottom: 0px !important;
     .button-b-c{
         display:flex;
         flex-direction:row-reverse !important;
-       
+        align-items: flex-start !important;
+        margin-left:0px !important;
     }
 
     .button-b {
