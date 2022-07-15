@@ -201,7 +201,7 @@ button:active, button:focus {
         width:300px  !important;
     }
 
-    .quantity {
+    .quantity, .button-b-c {
     display:flex !important;
     justify-content:left !important;
    
@@ -238,7 +238,7 @@ margin-bottom: 0px !important;
         display:flex;
         flex-direction:row-reverse !important;
         align-items: flex-start !important;
-        margin-left:0px !important;
+        margin-left:2px !important;
     }
 
     .button-b {
