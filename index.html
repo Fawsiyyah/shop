@@ -108,7 +108,7 @@
     <section class=" bus-image-section mb-0">
     </section>
     <div class="container d-flex justify-content-end me-5">
-        <button class="mt-3 py-2 text-center radius btn btn-small shop-border cart cart-button ">Go to Cart <span class="iconify cart " data-icon="carbon:arrow-right"></span></button>
+        <button class="mt-3 py-2 text-center radius btn btn-small shop cart cart-button ">Go to Cart <span class="iconify cart " data-icon="carbon:arrow-right"></span></button>
     </div>
 
     <div class="text-center pt-1 pb-4 mt-3">
@@ -128,39 +128,119 @@
                 </li>
             </ul>
         </div>
-        <div class="container">
-            <div class="justify-content-center">
-                <div class="container tab-content">
-                    <div class="tab-pane active show " id="tab-1">
-                        <div class=" row mb-3">
-                            <div class="col-lg-12 ">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/houseusebag.png" class="image-fluid radius image  py-3 mt-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class=" d-flex quantity-center py-3">
-                                                    <div class="ms-5 center mt-3">
-                                                        <h3 class=" big-text">House Use Bag</h3>
-                                                        <p class="money">₦7,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
-                                                        <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
-                                                        <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
-                                                    </div>  
-                                                    <div class="ms-5 quantity d-flex justify-content-center align-items-center">
-                                                        <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity1" class="minus-btn me-3 " /></button>
-                                                        <input type="text" name="name" id="quantity1" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity1" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>
-                                                    <div class="d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
-                                                    </div>
+    <!--<div class="row mb-3">
+        <div class="col-lg-1"></div>
+        <div class=" col-lg-10 col-md-12 col-12">
+            <div class="card border-0 shadow">
+                    <div class="d-none d-lg-block">
+                        <div class="row">
+                        <div class="col-lg-4">
+                            <img src="./img/pink-bin-big.png" class="img-fluid py-3 mx-auto" width="50%">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="d-flex">
+                            <div class="ms-5 center mt-3">
+                                <h3 class=" big-text">House Use Bag</h3>
+                                <p class="money">₦7,999</p>
+                                <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
+                                <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                            </div>  
+                            <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity1" class="minus-btn me-3 " /></button>
+                                <input type="text" name="name" id="quantity1" class="number num" value="1" min="1" />
+                                <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity1" class="plus-btn ms-3 me-3 " /></button>
+                            </div>
+                            <div class="d-flex flex-column  button-b-c "> 
+                                <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
+                                <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                       <div class=" d-flex quantity-center py-3">
+                    
+                        </div> 
+                    </div>
+                    <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                    <div class="container">
+                        <div class="row centt">
+                            <div class="col-lg-4 col-md-4 col-4 ">
+                                <img src="./img/pink-bin-big.png" class="img-fluid py-3 mx-auto mt-3">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-8">
+                                <div class="top">
+                                <div class="ms-2 center">
+                                    <h3 class=" big-text">House Use Bag</h3>
+                                    <p class="money">₦7,999</p>
+                                    <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
+                                    <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                                </div>  
+                                <div class="ms-2 quantity d-flex justify-content-center align-items-center">
+                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity1" class="minus-btn me-3 " /></button>
+                                    <input type="text" name="name" id="quantity1" class="number num" value="1" min="1" />
+                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity1" class="plus-btn ms-3 me-3 " /></button>
+                                </div>
+                                <div class="ms-2 mt-4"> 
+                                    <a href="" class="text-decoration-none my-button-c" >Add To Cart</a>
+                                    <a href="" class="text-decoration-none my-button-b">Buy Now</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+            
+            </div>
+        </div>
+    </div>
+    </div>-->
+    <div class="container">
+        <div class="justify-content-center">
+            <div class="container tab-content">
+                <div class="tab-pane active show " id="tab-1">
+                    
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/houseusebag.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class=" big-text">House Use Bag</h3>
+                                                    <p class="money">₦7,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
+                                                    <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity1" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity1" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity1" class="plus-btn ms-3 me-3 " /></button>
                                                 </div>
-                                                <div class=" d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="ms-2 center mt-3">
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/houseusebag.png" class="img-fluid image py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
                                                         <h3 class=" big-text">House Use Bag</h3>
                                                         <p class="money">₦7,999</p>
                                                         <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
@@ -172,486 +252,580 @@
                                                         <input type="text" name="name" id="quantity11" class="number num" value="1" min="1" />
                                                         <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity11" class="plus-btn ms-3 me-3 " /></button>
                                                     </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
+                                                </div>
                                             </div>
-                                            </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                        <div class="row mb-3">
-                            <div class="col-12 ">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/compactbag.png" class="radius image-fluid image img-1 py-3 mt-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-5">
-                                                        <h3 class="big-text">Compact Bag</h3>
-                                                        <p class="money">₦10,999</p>
-                                                        <p class="small-text"><t class="text">Holds</t>: 2,300Ibs</p>
-                                                        <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
-                                                        <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
-                                                    </div>
-                                                    <div class="ms-5 quantity d-flex justify-content-center">
-                                                        <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity2" class="minus-btn me-3  " /></button>
-                                                        <input type="text" name="name" id="quantity2" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity2" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>
-                                                    <div class="d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
-                                                    </div>
+                
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/compact.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Compact Bag</h3>
+                                                    <p class="money">₦10,999</p>
+                                                    <p class="small-text"><t class="text">Holds</t>: 2,300Ibs</p>
+                                                    <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity2" class="minus-btn me-3  " /></button>
+                                                    <input type="text" name="name" id="quantity2" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity2" class="plus-btn ms-3 me-3 " /></button>
                                                 </div>
-                                                <div class=" d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/compact.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
                                                         <h3 class="big-text">Compact Bag</h3>
                                                         <p class="money">₦10,999</p>
                                                         <p class="small-text"><t class="text">Holds</t>: 2,300Ibs</p>
                                                         <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
                                                         <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
                                                         <button data-for="quantity12" class="minusBtn"> <input  type="button" value="-" data-for="quantity12" class="minus-btn me-3  " /></button>
                                                         <input type="text" name="name" id="quantity12" class="number num" value="1" min="1" />
                                                         <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity12" class="plus-btn ms-3 me-3 " /></button>
                                                     </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/gardenbag.png" class="radius image-fluid image img-1 py-3 mt-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                        <div class=" center mt-3 ms-5">
-                                                            <h3 class="big-text">Garden Bag</h3>
-                                                            <p class="money ">₦7,999</p>
-                                                            <p class="small-text"><t class="text">Holds:</t> 3,000Ibs</p>
-                                                            <p class="small-text d-none d-lg-block"><t class="text">Best Use:</t> Garden trash & waste</p>
-                                                            <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Garden trash</p>
-                                                        </div>
-                                                        <div class="ms-5 quantity d-flex justify-content-center">
-                                                            <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity3" class="minus-btn me-3 " /></button>
-                                                            <input type="text" name="name" id="quantity3" class="number num" value="1" min="1" />
-                                                            <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity3" class="plus-btn ms-3 me-3 " /></button>
-                                                        </div>
-                                                        <div class="d-flex flex-column  button-b-c "> 
-                                                            <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                            <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class=" center mt-3 ms-2">
-                                                        <h3 class="big-text">Garden Bag</h3>
-                                                        <p class="money ">₦7,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 3,000Ibs</p>
-                                                        <p class="small-text d-none d-lg-block"><t class="text">Best Use:</t> Garden trash & waste</p>
-                                                        <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Garden trash</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
-                                                        <button data-for="quantity13" class="minusBtn"> <input  type="button" value="-" data-for="quantity13" class="minus-btn me-3 " /></button>
-                                                        <input type="text" name="name" id="quantity13" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity13" class="plusBtn"> <input  type="button" value="+" data-for="quantity13" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                    </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-5">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/disposablebinbag.png" class="radius image-fluid image py-3 mt-1" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-5">
-                                                        <h3 class="big-text">Disposable Bin  Bag</h3>
-                                                        <p class="money">₦7,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
-                                                        <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
-                                                        <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
-                                                    </div>
-                                                    <div class="ms-5 mb-5 quantity d-flex justify-content-center">
-                                                        <button data-for="quantity4" class="minusBtn"> <input  type="button" value="-" data-for="quantity4" class="minus-btn me-3 " /></button>
-                                                        <input type="text" name="name" id="quantity4" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity4" class="plusBtn"> <input  type="button" value="+" data-for="quantity4" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>  
-                                                    <div class="d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
-                                                    </div>
+                    </div>
+
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/gardenbag.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Garden Bag</h3>
+                                                    <p class="money ">₦7,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 3,000Ibs</p>
+                                                    <p class="small-text d-none d-lg-block"><t class="text">Best Use:</t> Garden trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Garden trash</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity3" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity3" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity3" class="plus-btn ms-3 me-3 " /></button>
                                                 </div>
-                                                <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
-                                                        <h3 class="big-text">Disposable Bin  Bag</h3>
-                                                        <p class="money">₦7,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
-                                                        <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
-                                                        <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
-                                                    </div>
-                                                    <div class="ms-2 mb-5 quantity d-flex justify-content-center">
-                                                        <button data-for="quantity14" class="minusBtn"> <input  type="button" value="-" data-for="quantity14" class="minus-btn me-3 " /></button>
-                                                        <input type="text" name="name" id="quantity14" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity14" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>  
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
-                            </div>  
-                    </div>
-                    </div>
-
-                    <div class="tab-pane" id="tab-2">
-                        <div class="row mb-3">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/plasticwastebin.png" class="image-fluid radius image mt-3 py-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                        <div class="center mt-3 ms-5">
-                                                            <h3 class="big-text">Plastic Waste Bin</h3>
-                                                            <p class="money">₦14,999</p>
-                                                            <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
-                                                            <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                        </div>
-                                                        <div class="ms-5 quantity d-flex justify-content-center">
-                                                            <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity5" class="minus-btn me-3 " /></button>
-                                                            <input type="text" name="name" id="quantity5" class="number num" value="1" min="1" />
-                                                            <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity5" class="plus-btn ms-3 me-3 " /></button>
-                                                        </div>
-                                                        <div class="d-flex flex-column  button-b-c "> 
-                                                            <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                            <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                        </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/garden.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
+                                                        <h3 class="big-text">Garden Bag</h3>
+                                                    <p class="money ">₦7,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 3,000Ibs</p>
+                                                    <p class="small-text d-none d-lg-block"><t class="text">Best Use:</t> Garden trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Garden trash</p>
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
+                                                        <button data-for="quantity13" class="minusBtn"> <input  type="button" value="-" data-for="quantity13" class="minus-btn me-3 " /></button>
+                                                        <input type="text" name="name" id="quantity13" class="number num" value="1" min="1" />
+                                                        <button data-for="quantity13" class="plusBtn"> <input  type="button" value="+" data-for="quantity13" class="plus-btn ms-3 me-3 " /></button>
+                                                    </div> 
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
-                                                <div class="  d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" row mb-5">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/disposablebinbag.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Disposable Bin  Bag</h3>
+                                                    <p class="money">₦7,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
+                                                    <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity4" class="minusBtn"> <input  type="button" value="-" data-for="quantity4" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity4" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity4" class="plusBtn"> <input  type="button" value="+" data-for="quantity4" class="plus-btn ms-3 me-3 " /></button>
+                                                </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/disposable.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
+                                                        <h3 class="big-text">Disposable Bin  Bag</h3>
+                                                    <p class="money">₦7,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 1,300Ibs</p>
+                                                    <p class="small-text  d-none d-lg-block"><t class="text">Best Use:</t> Home trash & waste</p>
+                                                    <p class="small-text  d-lg-none d-xl-block d-xl-none"><t class="text">Best Use:</t> Home trash</p>
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
+                                                        <button data-for="quantity14" class="minusBtn"> <input  type="button" value="-" data-for="quantity14" class="minus-btn me-3 " /></button>
+                                                        <input type="text" name="name" id="quantity14" class="number num" value="1" min="1" />
+                                                        <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity14" class="plus-btn ms-3 me-3 " /></button>
+                                                    </div>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="tab-2">
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/plasticwastebin.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Plastic Waste Bin</h3>
+                                                    <p class="money">₦14,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
+                                                    <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity5" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity5" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity5" class="plus-btn ms-3 me-3 " /></button>
+                                                </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/plasticwastebin.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
                                                         <h3 class="big-text">Plastic Waste Bin</h3>
                                                         <p class="money">₦14,999</p>
                                                         <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
                                                         <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
                                                         <button data-for="quantity15" class="minusBtn"> <input  type="button" value="-" data-for="quantity15" class="minus-btn me-3 " /></button>
                                                         <input type="text" name="name" id="quantity15" class="number num" value="1" min="1" />
                                                         <button data-for="quantity15" class="plusBtn"> <input  type="button" value="+" data-for="quantity15" class="plus-btn ms-3 me-3 " /></button>
                                                     </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
-                                </div>
-                            </div>  
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-12">
-                            <div class="container">
-                            <div class="d-flex justify-content-center">
-                                <div class="spacing px-5">
-                                    <div class="d-flex image-text">
-                                        <img src="img/industrialwastebin.png" class="image-fluid radius image py-3 mt-3" width="225px" height="225px" alt="">
-                                        <div class="d-none d-lg-block">
-                                            <div class="d-flex quantity-center py-3">
-                                            <div class="center mt-3 ms-5">
-                                                <h3 class="big-text">Industrial Waste Bin</h3>
-                                                <p class="money">₦14,999</p>
-                                                <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
-                                                <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
-                                            </div>
-                                            <div class="ms-5 quantity d-flex justify-content-center">
-                                                <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity6" class="minus-btn me-3 " /></button>
-                                                <input type="text" name="name" id="quantity6" class="number num" value="1" min="1" />
-                                                <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity6" class="plus-btn ms-3 me-3 " /></button>
-                                            </div>
-                                            <div class="d-flex flex-column  button-b-c "> 
-                                                <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        <div class="  d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                            <div class="center mt-3 ms-2">
-                                                <h3 class="big-text">Industrial Waste Bin</h3>
-                                                <p class="money">₦14,999</p>
-                                                <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
-                                                <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
-                                            </div>
-                                            <div class="ms-2 quantity d-flex justify-content-center">
-                                                <button data-for="quantity16" class="minusBtn"> <input  type="button" value="-" data-for="quantity16" class="minus-btn me-3 " /></button>
-                                                <input type="text" name="name" id="quantity16" class="number num" value="1" min="1" />
-                                                <button data-for="quantity16" class="plusBtn"> <input  type="button" value="+" data-for="quantity16" class="plus-btn ms-3 me-3 " /></button>
-                                            </div>
-                                            <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
                                 </div>
                             </div>
                         </div>
-                        </div>  
-                </div>
-                        <div class="row mb-3">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/wastecontainer.png" class="image-fluid radius image py-3 mt-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                        <div class="center mt-3 ms-5">
-                                                            <h3 class="big-text">Waste Container</h3>
+                    </div>
+
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/industrialwastebin.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Industrial Waste Bin</h3>
+                                                    <p class="money">₦14,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
+                                                    <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity6" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity6" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity6" class="plus-btn ms-3 me-3 " /></button>
+                                                </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/industrialwastebin2.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
+                                                        <h3 class="big-text">Industrial Waste Bin</h3>
+                                                        <p class="money">₦14,999</p>
+                                                        <p class="small-text"><t class="text">Holds:</t> 4,500Ibs</p>
+                                                        <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
+                                                        <button data-for="quantity16" class="minusBtn"> <input  type="button" value="-" data-for="quantity16" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity16" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity16" class="plusBtn"> <input  type="button" value="+" data-for="quantity16" class="plus-btn ms-3 me-3 " /></button>
+                                                    </div>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/wastecontainer.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Waste Container</h3>
+                                                    <p class="money">₦19,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 6,500Ibs</p>
+                                                    <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity7" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity7" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity7" class="plus-btn me-3 ms-3" /></button>
+                                                </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/wastecont.png" class="img-fluid py-3 mx-auto mt-3" alt="" width="100%">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
+                                                        <h3 class="big-text">Waste Container</h3>
                                                             <p class="money">₦19,999</p>
                                                             <p class="small-text"><t class="text">Holds:</t> 6,500Ibs</p>
                                                             <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                        </div>
-                                                        <div class="ms-5 quantity d-flex justify-content-center">
-                                                            <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity7" class="minus-btn me-3 " /></button>
-                                                            <input type="text" name="name" id="quantity7" class="number num" value="1" min="1" />
-                                                            <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity7" class="plus-btn me-3 ms-3" /></button>
-                                                        </div>
-                                                        <div class=" d-flex flex-column  button-b-c "> 
-                                                            <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                            <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
-                                                        <h3 class="big-text">Waste Container</h3>
-                                                        <p class="money">₦19,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 6,500Ibs</p>
-                                                        <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
                                                         <button data-for="quantity17" class="minusBtn"> <input  type="button" value="-" data-for="quantity17" class="minus-btn me-3 " /></button>
                                                         <input type="text" name="name" id="quantity17" class="number num" value="1" min="1" />
                                                         <button data-for="quantity17" class="plusBtn"> <input  type="button" value="+" data-for="quantity17" class="plus-btn me-3 ms-3" /></button>
                                                     </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        <div class="row mb-5">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                    <div class="spacing px-5">
-                                        <div class="d-flex image-text">
-                                            <img src="img/chemicalwaste.png" class="image-fluid radius image mt-3 py-3" width="225px" height="225px" alt="">
-                                            <div class="d-none d-lg-block">
-                                                <div class="d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-5">
-                                                        <h3 class="big-text">Chemical Waste</h3>
-                                                        <p class="money">₦22,999</p>
-                                                        <p class="small-text"><t class="text">Holds:</t> 5,500Ibs</p>
-                                                        <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
-                                                    </div>
-                                                    <div class="ms-5 quantity d-flex justify-content-center">
-                                                        <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity8" class="minus-btn me-3 " /></button>
-                                                        <input type="text" name="name" id="quantity8" class="number num" value="1" min="1" />
-                                                        <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity8" class="plus-btn ms-3 me-3 " /></button>
-                                                    </div>
-                                                    <div class="d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                <div class="center mt-3 ms-2">
+                    </div>
+                    <div class=" row mb-5">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/chemicalwaste.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
                                                     <h3 class="big-text">Chemical Waste</h3>
                                                     <p class="money">₦22,999</p>
                                                     <p class="small-text"><t class="text">Holds:</t> 5,500Ibs</p>
                                                     <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity8" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity8" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity8" class="plus-btn ms-3 me-3 " /></button>
                                                 </div>
-                                                <div class="ms-2 quantity d-flex justify-content-center">
-                                                    <button data-for="quantity18" class="minusBtn"> <input  type="button" value="-" data-for="quantity18" class="minus-btn me-3 " /></button>
-                                                    <input type="text" name="name" id="quantity18" class="number num" value="1" min="1" />
-                                                    <button data-for="quantity18" class="plusBtn"> <input  type="button" value="+" data-for="quantity18" class="plus-btn ms-3 me-3 " /></button>
-                                                </div>
-                                                <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                    <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                    <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
                                                 </div>
                                             </div>
                                         </div>
-                                    
-                                    </div>
                                     </div>
                                 </div>
-                            </div>  
-                        </div>
-                    </div>
-
-                    <div class="tab-pane" id="tab-3">
-                        <div class="row mb-3">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/trashdumpstar.png" class="image-fluid radius image mt-3 py-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class="d-flex quantity-center py-3">
-                                                        <div class="center mt-3 ms-5">
-                                                            <h3 class="big-text">Trash Dumpster</h3>
-                                                            <p class="money">₦24,999</p>
-                                                            <p class="small-text"><t class="text">Holds:</t> 6,300Ibs</p>
-                                                            <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                        </div>
-                                                        <div class="ms-5 quantity d-flex justify-content-center">
-                                                            <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity9" class="minus-btn me-3 " /></button>
-                                                            <input type="text" name="name" id="quantity9" class="number num" value="1" min="1" />
-                                                            <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity9" class="plus-btn ms-3 me-3 " /></button>
-                                                        </div>
-                                                        <div class="d-flex flex-column  button-b-c "> 
-                                                            <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                            <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                        </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/industrialwastebin2.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
+                                                        <h3 class="big-text">Chemical Waste</h3>
+                                                            <p class="money">₦22,999</p>
+                                                            <p class="small-text"><t class="text">Holds:</t> 5,500Ibs</p>
+                                                            <p class="small-text"><t class="text">Best Use:</t>Industrial Waste</p>
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
+                                                        <button data-for="quantity18" class="minusBtn"> <input  type="button" value="-" data-for="quantity18" class="minus-btn me-3 " /></button>
+                                                        <input type="text" name="name" id="quantity18" class="number num" value="1" min="1" />
+                                                        <button data-for="quantity18" class="plusBtn"> <input  type="button" value="+" data-for="quantity18" class="plus-btn ms-3 me-3 " /></button>
+                                                    </div>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
-                                                <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+                <div class="tab-pane" id="tab-3">
+                     <div class=" row mb-3">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/trashdumpstar.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Trash Dumpster</h3>
+                                                    <p class="money">₦24,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 6,300Ibs</p>
+                                                    <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity9" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity9" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity9" class="plus-btn ms-3 me-3 " /></button>
+                                                </div>
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/trashdumpst.png" class="img-fluid py-3 mx-auto mt-3" width="100%" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
                                                         <h3 class="big-text">Trash Dumpster</h3>
                                                         <p class="money">₦24,999</p>
                                                         <p class="small-text"><t class="text">Holds:</t> 6,300Ibs</p>
                                                         <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
                                                         <button data-for="quantity19" class="minusBtn"> <input  type="button" value="-" data-for="quantity19" class="minus-btn me-3 " /></button>
                                                         <input type="text" name="name" id="quantity19" class="number num" value="1" min="1" />
                                                         <button data-for="quantity19" class="plusBtn"> <input  type="button" value="+" data-for="quantity19" class="plus-btn ms-3 me-3 " /></button>
                                                     </div>
-                                                    <div class="ms-2 d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
-                        <div class="row mb-5">
-                            <div class="col-12">
-                                <div class="container">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="spacing px-5">
-                                            <div class="d-flex image-text">
-                                                <img src="img/rolloffdumpstar.png" class="image-fluid radius image  mt-3 py-3" width="225px" height="225px" alt="">
-                                                <div class="d-none d-lg-block">
-                                                    <div class=" d-flex quantity-center py-3">
-                                                        <div class="center mt-3 ms-5">
-                                                            <h3 class="big-text">Roll-Off Dumpster</h3>
-                                                            <p class="money">₦89,999</p>
-                                                            <p class="small-text"><t class="text">Holds:</t> 15,000Ibs</p>
-                                                            <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                        </div>
-                                                        <div class="ms-5 quantity d-flex justify-content-center">
-                                                            <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity10" class="minus-btn me-3 " /></button>
-                                                            <input type="text" name="name" id="quantity10" class="number num" value="1" min="1" />
-                                                            <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity10" class="plus-btn ms-3 me-3 " /></button>
-                                                        </div>
-                                                        <div class="d-flex flex-column  button-b-c "> 
-                                                            <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                            <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
-                                                        </div>
-                                                    </div>
+                    </div>
+                    <div class=" row mb-5">
+                        <div class=" col-lg-10 col-md-12 col-12 ">
+                            <div class="card border-0 shadow">
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <img src="img/rolloffdumpstar.png" class="img-fluid py-3 mx-auto" width="50%" alt="">
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <div class=" d-flex">
+                                                <div class="ms-5 center mt-3">
+                                                    <h3 class="big-text">Roll-Off Dumpster</h3>
+                                                    <p class="money">₦89,999</p>
+                                                    <p class="small-text"><t class="text">Holds:</t> 15,000Ibs</p>
+                                                    <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
+                                                </div>  
+                                                <div class="ms-5 quantity d-flex justify-content-center align-items-center">
+                                                    <button data-for="quantity1" class="minusBtn"> <input  type="button" value="-" data-for="quantity10" class="minus-btn me-3 " /></button>
+                                                    <input type="text" name="name" id="quantity10" class="number num" value="1" min="1" />
+                                                    <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity10" class="plus-btn ms-3 me-3 " /></button>
                                                 </div>
-                                                <div class="d-lg-none d-xl-block d-xl-none d-flex quantity-center py-3">
-                                                    <div class="center mt-3 ms-2">
+                                                <div class="d-flex flex-column  button-b-c "> 
+                                                    <button class="cart-button mb-2 radius btn shop-border button-b"><a href="#" class="text-decoration-none shop-border" >Buy Now</a></button>
+                                                    <button class=" cart-button mb-2 radius btn shop button-c "><a href="#" class="text-decoration-none cart">Add To Cart</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-lg-none d-xl-block d-xl-none d-flex py-3">
+                                    <div class="container">
+                                        <div class="row centt">
+                                            <div class="col-lg-4 col-md-4 col-4">
+                                                <img src="img/rolloff.png" class="img-fluid py-3 mx-auto mt-3" alt="">
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-8">
+                                                <div class="top">
+                                                    <div class="ms-2 center">
                                                         <h3 class="big-text">Roll-Off Dumpster</h3>
                                                         <p class="money">₦89,999</p>
                                                         <p class="small-text"><t class="text">Holds:</t> 15,000Ibs</p>
                                                         <p class="small-text"><t class="text">Best Use:</t> Industrial Waste</p>
-                                                    </div>
-                                                    <div class="ms-2 quantity d-flex justify-content-center">
+                                                    </div>  
+                                                    <div class="ms-2 quantity d-flex justify-content-center align-items-center">
                                                         <button data-for="quantity20" class="minusBtn"> <input  type="button" value="-" data-for="quantity20" class="minus-btn me-3 " /></button>
                                                         <input type="text" name="name" id="quantity20" class="number num" value="1" min="1" />
                                                         <button data-for="quantity1" class="plusBtn"> <input  type="button" value="+" data-for="quantity20" class="plus-btn ms-3 me-3 " /></button>
                                                     </div>
-                                                    <div class="d-flex flex-column  button-b-c "> 
-                                                        <button class="cart-button mb-2 radius btn shop-border button-b">Buy Now</button>
-                                                        <button class="cart cart-button mb-2 radius btn shop-border button-c ">Add To Cart</button>
+                                                    <div class="ms-2 mt-4"> 
+                                                        <button class="button-c cart-button mb-2 radius btn shop"><a href="#" class="text-decoration-none cart" >Add To Cart</a></button>
+                                                        <button class=" button-b cart-button mb-2 radius btn shop-border "><a href="#" class="text-decoration-none shop-border">Buy Now</a></button>
                                                     </div>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
-            
                 </div>
+        
             </div>
-        </div>
-    </div>
+      </div>
+   </div>
+
 </main>
 
    <!-- footer for registered users -->
