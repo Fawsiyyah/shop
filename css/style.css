@@ -214,18 +214,7 @@ button:active, button:focus {
         margin-top:40px ;
     }
 
-    .button-b {
-        margin-left:10px;
-        width:100px !important;
-        margin-bottom: 1px !important;
-    }
-
-    .button-c {  
-        width:100px !important;
-        margin-bottom: 1px !important;
-    }
-
-    .quantity {
+       .quantity {
         margin-left: 15px !important;
     }
 
@@ -253,26 +242,13 @@ button:active, button:focus {
             padding-bottom: 0px !important;
         }
 
-        .button-b {
-            margin-left:10px;
-            width:80px !important;
-            margin-bottom: 1px !important;
-            font-size: 10px;
-        }
-    
-        .button-c {  
-            width:90px !important;
-            margin-bottom: 1px !important;
-            font-size: 10px;
-        }
-    
-
-            .image{
+                  .image{
                 min-width: 25vw !important;
                text-align: center;
             }
     }
-
+/*360 AND 320PX*/
+    
     @media (max-width:413px) {
         .bus-image-section {
             min-width:10vw !important;
@@ -283,7 +259,27 @@ button:active, button:focus {
         margin-bottom: 0px !important;
             padding-bottom: 0px !important;
         }
+
+        .my-button-c   {
+            width:52% !important;
+            font-size: 9px !important;
+        }
+        .my-button-b   {
+            width:45% !important;
+            font-size: 9px !important;
+        }
     }
+    @media (max-width: 394px) {
+        .my-button-c   {
+            width:52% !important;
+            font-size: 9px !important;
+        }
+        .my-button-b   {
+            width:45% !important;
+            font-size: 9px !important;
+        }
+    }
+
 
 
     @media (max-width: 376px) {
@@ -301,16 +297,28 @@ button:active, button:focus {
         .big-text {
             font-size: 20px;
         }
-         .button-c   {
-            width:75px !important;
-            font-size: 8px;
+         .my-button-c   {
+            width:52% !important;
+            font-size: 9px !important;
         }
-        .button-b   {
-            width:64px !important;
-            font-size: 8px;
+        .my-button-b   {
+            width:45% !important;
+            font-size: 9px !important;
         }
         
     }
+
+    @media (max-width: 361px) {
+        .my-button-c   {
+            width:44% !important;
+            font-size: 8px !important;
+        }
+        .my-button-b   {
+            width:36% !important;
+            font-size: 8px !important;
+        }
+    }
+
     @media (max-width:361px){
         .bus-image-section {
             min-width:10vw;
@@ -334,13 +342,13 @@ button:active, button:focus {
             padding-bottom: 0px !important;
         }
 
-        .button-c   {
-            width:54px !important;
-            font-size: 7px;
+        .my-button-c   {
+            width:52% !important;
+            font-size: 6px !important;
         }
-        .button-b   {
-            width:48px !important;
-            font-size: 7px;
+        .my-button-b   {
+            width:42% !important;
+            font-size: 6px !important;
         }
              
              .nav-item{
