@@ -54,7 +54,7 @@ color:black;
     display:flex !important;
     justify-content:center !important;
     align-items: center !important;
-box-shadow: 0px 2px 20px rgba(0,0,0,0.1) !important;
+    width: 100%;
 }
 
 .nav-arrow:hover{
@@ -176,9 +176,11 @@ color:#17A100
 .button-b {
     background-color:#17A100;
     color: white;
-    margin-bottom: 60px !important ;
+    margin-top: 15px;
+    margin-bottom: 45px !important ;
     }
 
+    
 .plusBtn, .minusBtn {
     border:none;
     background-color: white;
@@ -233,6 +235,10 @@ button:active, button:focus {
 
 
     @media (max-width: 426px) {
+
+        .header-text {
+            font-size: 20px;
+        }
        
         .bus-image-section {
             min-width:10vw !important;
@@ -252,13 +258,9 @@ button:active, button:focus {
             width:45% !important;
             font-size: 10px !important;
         }
-
-                  .image{
-                min-width: 25vw !important;
-               text-align: center;
-            }
     }
-/*360 AND 320PX*/
+          
+
     
     @media (max-width:413px) {
         .bus-image-section {
@@ -388,7 +390,6 @@ button:active, button:focus {
             left:50% !important;
             transform:translateY(-50%) !important;
         }
-
                 .big-text {
         font-size:16px !important;
         }
