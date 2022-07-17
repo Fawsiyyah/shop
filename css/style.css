@@ -218,6 +218,8 @@ button:active, button:focus {
         margin-left: 15px !important;
     }
 
+    
+
     .bus-image-section {
         min-width:10vw;
     min-height: 32vh;
@@ -240,6 +242,15 @@ button:active, button:focus {
         background-size:cover !important;
         margin-bottom: 0px !important;
             padding-bottom: 0px !important;
+        }
+
+        .my-button-c   {
+            width:52% !important;
+            font-size: 10px !important;
+        }
+        .my-button-b   {
+            width:45% !important;
+            font-size: 10px !important;
         }
 
                   .image{
@@ -298,10 +309,12 @@ button:active, button:focus {
             font-size: 20px;
         }
          .my-button-c   {
+            padding: 5px !important;
             width:52% !important;
             font-size: 9px !important;
         }
         .my-button-b   {
+            padding: 5px !important;
             width:45% !important;
             font-size: 9px !important;
         }
@@ -343,12 +356,14 @@ button:active, button:focus {
         }
 
         .my-button-c   {
-            width:52% !important;
-            font-size: 6px !important;
+            padding: 4px !important;
+            width:55% !important;
+            font-size: 9px !important;
         }
         .my-button-b   {
-            width:42% !important;
-            font-size: 6px !important;
+            padding: 4px !important;
+            width:41% !important;
+            font-size: 9px !important;
         }
              
              .nav-item{
