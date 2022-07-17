@@ -220,8 +220,6 @@ button:active, button:focus {
         margin-left: 15px !important;
     }
 
-    
-
     .bus-image-section {
         min-width:10vw;
     min-height: 32vh;
@@ -231,6 +229,10 @@ button:active, button:focus {
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;        
     }
+
+    .my-button-b {
+        margin-left: 5px !important;
+    }
 }
 
 
@@ -239,7 +241,29 @@ button:active, button:focus {
         .header-text {
             font-size: 20px;
         }
+
+        .big-text {
+            font-size: 18px;
+        }
        
+        .small-text {
+            font-size: 16px;
+        }
+
+        .head-link .active::after{
+            content:"" !important;
+            border-right: 10px solid transparent !important;
+            border-top: 10px solid #17A100 !important;
+            border-bottom: 10px solid transparent !important;
+            border-left: 10px solid transparent !important;
+            width:0 !important;
+            height:0 !important;
+            position:absolute !important;
+            top: 50px !important;
+            bottom: -20px !important;
+            left:50% !important;
+            transform:translateY(-50%) !important;
+        }
         .bus-image-section {
             min-width:10vw !important;
         min-height: 18vh !important;
