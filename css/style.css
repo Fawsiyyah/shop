@@ -208,6 +208,19 @@ button:active, button:focus {
     outline:none;
 }
 
+.text-decoration-none:hover {
+    color: black !important;
+}
+
+.my-button-b .text-decoration-none, .button-b .text-decoration-none {
+    color: white;
+}
+
+
+.my-button-c .text-decoration-none, .button-c .text-decoration-none {
+    color:#17A100;
+}
+
 
 
 
